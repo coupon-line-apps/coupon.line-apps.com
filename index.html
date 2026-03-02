@@ -1,37 +1,38 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-
 <meta charset="UTF-8">
-<title>🔥最新の投資情報</title>
+<title>好友添加中...</title>
 
-<!-- OG -->
-<meta property="og:title" content="🔥最新の投資好機">
-<meta property="og:description" content="LINE友だち追加で無料プレゼント中">
-<meta property="og:image"
-content="https://hdjkasdk.github.io/coupon.line-apps.com/images/og.jpg">
-
-<meta property="og:url"
-content="https://hdjkasdk.github.io/coupon.line-apps.com/">
-
-<meta property="og:type" content="website">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-
-<!-- ⭐ 关键：延迟跳转 -->
 <script>
-setTimeout(function(){
-  window.location.href="https://line.me/R/ti/p/Tn-qJNL-72";
-},1500);
+window.onload = function () {
+
+    // 你的LINE ID
+    var lineID = "@xxxxxxx";
+
+    // 直接调用LINE APP
+    window.location.href = "line://ti/p/" + lineID;
+
+};
 </script>
 
 </head>
 
-<body>
+<body style="text-align:center;margin-top:100px;font-family:sans-serif;">
+<h2>正在打开 LINE...</h2>
+<p>如果没有自动跳转，请点击下面按钮</p>
 
-<h1>Loading...</h1>
-<p>LINEへ移動しています...</p>
+<a id="btn"
+   href="line://ti/p/@xxxxxxx"
+   style="
+   padding:15px 30px;
+   background:#06C755;
+   color:white;
+   text-decoration:none;
+   border-radius:8px;
+   font-size:18px;">
+添加LINE好友
+</a>
 
 </body>
 </html>
